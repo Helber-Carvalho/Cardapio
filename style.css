@@ -1,0 +1,7 @@
+   body {
+        background-image: url('');
+        background-size: cover;    /* Ajusta a imagem para cobrir o fundo inteiro */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita repetição da imagem */
+        color: white;              /* Texto branco para contraste */
+    }
