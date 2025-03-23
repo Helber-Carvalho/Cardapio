@@ -1,0 +1,14 @@
+
+ .cards {
+            background-color: yellow !important;
+            color: black;
+            padding: 20px;
+            text-align: center;
+            border: 2px solid blue; /* Apenas para teste */
+        }
+ #main{
+        background-color: rgb(211, 53, 53) !important; /* Apenas para teste */
+        padding: 20px;
+        border: 2px solid red; /* Ver se realmente está sendo aplicado */
+    }
+    
