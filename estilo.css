@@ -1,14 +1,36 @@
 
  .cards {
-            background-color: yellow !important;
-            color: black;
-            padding: 20px;
+            background-color: rgb(15, 155, 62) !important;
+            color: rgb(12, 52, 231);
             text-align: center;
             border: 2px solid blue; /* Apenas para teste */
+            height: 50% left;
         }
- #main{
-        background-color: rgb(211, 53, 53) !important; /* Apenas para teste */
-        padding: 20px;
-        border: 2px solid red; /* Ver se realmente está sendo aplicado */
-    }
+        /* esse container, é uma div que acomoda duas divs por vez, o papel dele é passar os dados do server pra cards/divs */
+        .container {
+            display: flex;
+            width: 100%;
+            height: 200px;
+            
+        }
+
+                .left, .right {
+                flex: 1; /* Cada div ocupa 50% */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 24px;
+                font-weight: bold;
+                color: white;
+                }
+
+        .left {
+            background-color: #007bff; /* Azul */
+           
+        }
+
+        .right {
+            background-color: #28a745; /* Verde */
+        }
+
     
